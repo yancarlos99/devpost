@@ -16,8 +16,8 @@ export class PostListComponent implements OnInit {
 
   totalElementos = 0;
   pagina = 0;
-  tamanho = 3;
-  pageSizeOptions: number[] = [3];
+  tamanho = 2;
+  pageSizeOptions: number[] = [2];
 
   constructor(private postService: PostService, private rotas: Router) { }
 

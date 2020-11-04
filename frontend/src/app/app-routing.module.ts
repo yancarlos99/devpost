@@ -32,6 +32,11 @@ const routes: Routes = [
   {
     path: 'posts/:id',
     component: PostViewComponent
+  },
+
+  {
+    path: '**',
+    component: PageInicialComponent
   }
 
 ];

@@ -1,0 +1,26 @@
+<div class="container"> 
+    <p-card *ngFor="let post of posts" class="cards" [header]="post.titulo" [style]="{'width': '70rem', 'margin-bottom': '2em', 'background-color': '#181920','border-radius': '15px', 'position': 'relative'}">
+        <button pButton pRipple type="button" icon="pi pi-eye"
+         class="p-button-rounded p-button-text"
+         style="font-size: 2rem;right: 15px; top: 15px;position: absolute;"
+         (click)="rotasBotaoVisualizar(post.id)"></button>
+        <p class="text" [innerHtml]="post.texto"></p>
+        
+        <p class="name">{{post.autor}} {{post.data}}</p>
+    </p-card> 
+    
+    <mat-paginator [length]="totalElementos"
+              [pageSize]="tamanho"
+              [pageSizeOptions]="pageSizeOptions"
+              (page)="paginar($event)"
+              >
+    </mat-paginator>
+
+</div>
+
+
+
+
+
+
+

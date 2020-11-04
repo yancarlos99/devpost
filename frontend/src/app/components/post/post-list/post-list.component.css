@@ -1,0 +1,25 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-color: #FFF;
+}
+
+.name {
+    margin-left: 80%;
+    margin-top: 50px;
+    color: #c6c7c9;
+}
+
+.text {
+    color: #FFF;
+    white-space: nowrap;
+    width: 99%;                   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+}
+
+
+

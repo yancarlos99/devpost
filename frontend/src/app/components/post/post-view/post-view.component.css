@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6%;
+    color: #FFF;
+}
+
+.icon {
+    padding: 5px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.button-pencil {
+    padding: 5px;
+}
+
+.btn {
+    padding: 2px;
+}
+

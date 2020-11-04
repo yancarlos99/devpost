@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar {
+    font-size: 1.5rem;
+    height: 60px;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.icons {
+    padding-bottom: 5px;
+}
+
+.icon-header {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}

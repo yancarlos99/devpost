@@ -1,0 +1,46 @@
+<div class="p-grid p-justify-center p-col-12">
+    <div class="p-col-10 p-sm-6 p-md-4">
+            <form #postForm="ngForm" (ngSubmit)="submit()">
+
+                <div class="p-col-12 message">
+                    <span class="p-float-label">
+                        <p-message severity="success" text="Postagem Criada com Sucesso !" *ngIf="success == true"></p-message>  
+                    </span>
+                </div>
+                <div class="p-col-12">
+                    <span class="p-float-label">
+                        <input [(ngModel)]="post.titulo" name="titulo" id="float-input" type="text" pInputText>
+                        <label for="float-input">Titulo *</label>
+                    </span>
+                    
+                </div>
+                
+                <div class="p-col-12">
+                    <span class="p-float-label input">
+                        <input [(ngModel)]="post.autor" name="autor" id="float-input" type="text" pInputText>
+                        <label for="float-input">Autor *</label>
+                    </span>
+                </div>
+                <div class="p-col-12 editor">
+                    <span class="p-float-label">
+                        <textarea [(ngModel)]="post.texto" name="texto" rows="15" cols="95" 
+                            pInputTextarea autoResize="autoResize" placeholder="Mensagem *">
+                        </textarea>
+                        <small class="form-text">
+                            (*) Campos obrigatórios
+                        </small>
+                    </span>
+                </div>
+                <div class="p-col-12">
+                    <span class="p-float-label">
+                        <button pButton pRipple type="submit" label="Adicionar Post"
+                            class="p-button-raised p-button-secondary" routerLink="/posts"></button>
+                    </span>
+                </div>
+            </form>        
+    </div>
+</div>
+
+
+
+ 

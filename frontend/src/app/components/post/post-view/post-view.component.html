@@ -1,0 +1,23 @@
+<div class="p-col-12 message p-text-center">
+    <span class="p-float-label">
+        <p-message severity="success" text="Postagem Excluida com Sucesso !" *ngIf="success == true"></p-message>  
+    </span>
+</div>
+<div class="container">
+
+
+    <div class="p-mb-3 demo-container" style="width: 50rem">
+        <div class="p-d-flex p-jc-end">
+            <div class="btn">
+                <button pButton pRipple type="button" icon="pi pi-pencil" class="p-button-rounded p-button-info" (click)=rotaBotaoVisualizar(post.id)></button>
+            </div>
+            <div class="btn">
+                <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger" (click)=deletarPost()></button>
+            </div>
+        </div>
+        <h2 class="title">{{post.titulo}}</h2>
+        <p><i class="pi pi-user icon"></i>{{post.autor}}</p>
+        <p><i class="pi pi-calendar icon"></i>{{post.data}}</p>
+        <p class="text">{{post.texto}}</p>
+    </div>
+</div>

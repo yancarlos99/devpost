@@ -1,0 +1,22 @@
+input {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 150%;
+}
+
+.form-text {
+    color: #FFF;
+
+}
+
+
+.editor {
+    width: 148%;
+    height: 100%;
+}
+
+.message {
+    padding-bottom: 4%;
+}
+

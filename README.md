@@ -1,11 +1,11 @@
 <p>Abaixo está todas as tecnologias que foram utilizadas nesse projeto:</p>
 
-<p>- Back-end</p>
+<p>Back-end</p>
 <p><li>Spring Boot</p>
 <p><li>Maven<p>
 <p><li>PostgreSQL</p>
 
-<p>-Front-end</p>
+<p>Front-end</p>
 <p><li>Angular</p>
 <p>PrimeNG</p>
 <p><li>HTML</p>

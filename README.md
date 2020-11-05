@@ -1,7 +1,7 @@
-Abaixo está todas as tecnologias que foram utilizadas nesse projeto:
+<p>Abaixo está todas as tecnologias que foram utilizadas nesse projeto:</p>
 
-- Back-end
-.Spring Boot
+<p>- Back-end</p>
+<p><li>Spring Boot</p>
 .Maven
 .PostgreSQL
 

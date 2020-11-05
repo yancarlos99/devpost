@@ -2,17 +2,17 @@
 
 <p>- Back-end</p>
 <p><li>Spring Boot</p>
-.Maven
-.PostgreSQL
+<p><li>Maven<p>
+<p><li>PostgreSQL</p>
 
--Front-end
-.Angular
-.PrimeNG
-.HTML
-.CSS
+<p>-Front-end</p>
+<p><li>Angular</p>
+<p>PrimeNG</p>
+<p><li>HTML</p>
+<p><li>.CSS</p>
 
 
-<h1>devpost<h1>
+<h1>devpost</h1>
 <p>Blog para desenvolvedores, no intuito de compartilhar informações.</p>
 
 <p>Nesta imagens estamos visualizando a pagina inicial da aplicacão, clicando no botão ele direciona para tela de listagem</p>
